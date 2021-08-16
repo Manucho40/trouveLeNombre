@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,85,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+}
+.cadre{
+    margin-top: 50px;
+    background-color: #273E47;
+    padding-bottom: 20px;
+    width: 800px;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    color: #fff;
+}
+
+.cadre .firstP{
+    font-size: 2rem;
+    color: #B8F3FF;
+}
+.life{
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    font-size: 5rem;
+}
+.fa-heart{
+    color: red;
+    transform: scale(1.1);
+}
+.faBlack{
+    color: #fff;
+}
+
+.formu{
+    margin: 10px;
+    border: 2px solid ;
+    padding-bottom: 50px;
+    background-color: #42858C;
+    
+}
+.formu p{
+    font-size: 2rem;
+    
+}
+.formu input{
+    height: 50px;
+}
+
+#indice{
+    font-size: 2rem;
+    color: red;
+    margin: 0;
+}
+
+.but{
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: #32E875;
+    visibility: hidden;
+}
+
+
+@media (max-width: 600px){
+    .fa-heart{
+        font-size: 50px;
+    }
+    #indice{
+        font-size: 1rem;
+        
+    }
+
+}
