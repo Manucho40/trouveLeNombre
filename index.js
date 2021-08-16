@@ -4,9 +4,9 @@ let vie = document.querySelectorAll("i");
 let output = document.getElementById("indice");
 const reset = document.querySelector('.but');
 let chance = -1;
-const resultat = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
+const resultat = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
 const indice = ["Trop Grand", "Trop petit", "GENIAL VOUS AVEZ GAGNEZ <i class='fas fa-trophy'></i>", "Tu as perdu <i class='fas fa-dizzy'></i>"];
-console.log(resultat);
+
 
 
 formulaire.addEventListener('submit', (e) => {
